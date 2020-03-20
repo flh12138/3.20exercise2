@@ -25,6 +25,6 @@ int main()
 			rectangle(binaryMat, bndbox, CV_RGB(255, 255, 255), 3, 8, 0);
 		}
 	    imshow("src1", src);
-		imshow("sec2", binaryMat);
+		imshow("src2", binaryMat);
 		waitKey(0);
 }
